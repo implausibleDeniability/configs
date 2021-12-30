@@ -2,6 +2,7 @@ set mouse=a  " enable mouse
 set encoding=utf-8
 set number
 set scrolloff=7
+set noswapfile
 
 " TABS/INDENTATION CONFIGS
 set tabstop=4
