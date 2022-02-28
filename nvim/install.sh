@@ -20,5 +20,7 @@ mkdir -p ~/.config/nvim/
 ln -s  ~/configs/nvim/init.vim ~/.config/nvim/init.vim
 
 # further instructions
-echo "In ~/.configs/nvim/init.vim run ':so %', then ':PlugInstall', then ':so %' again"
+RED='\033[0;31m'
+NC='\033[0m'
+echo "${RED}In ~/.config/nvim/init.vim run ':so %', then ':PlugInstall', then ':so %' again${NC}"
 
