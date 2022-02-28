@@ -16,7 +16,7 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 # symbolic link
-mkdir -p ~/.configs/nvim/
+mkdir -p ~/.config/nvim/
 ln -s  ~/configs/nvim/init.vim ~/.config/nvim/init.vim
 
 # further instructions
