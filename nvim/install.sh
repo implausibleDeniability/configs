@@ -1,6 +1,6 @@
 #!/bin/bash
 # install neovim
-apt install software-properties-common
+DEBIAN_FRONTEND=noninteractive apt install software-properties-common
 add-apt-repository ppa:neovim-ppa/unstable
 apt-get update
 apt-get install -y neovim
